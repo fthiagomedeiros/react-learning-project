@@ -10,12 +10,12 @@ configure({adapter: new Adapter()});
 describe('<About />', () => {
     it('renders three <About /> components', () => {
         const wrapper = shallow(<About />);
-        expect(wrapper.find('div')).to.have.lengthOf(2);
+        expect(wrapper.find('div')).to.have.lengthOf(1);
     });
 
     it('renders three <About /> components', () => {
         const wrapper = shallow(<About />);
-        expect(wrapper.find('h3')).to.have.lengthOf(2);
+        expect(wrapper.find('h3')).to.have.lengthOf(1);
     });
 
     it('renders three <About /> components', () => {
